@@ -1,0 +1,298 @@
+$background_color: #F2EFEB;
+$link_color: #001eff;
+
+
+body {
+  margin: 0; 
+  font-weight: 300;
+  font-family: 'Basis Grotesque', helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  background-color: $background_color;
+  color:#333;
+}
+
+* {
+  box-sizing: border-box; 
+}
+
+.logo {
+  display: block;
+  width:125px;
+  height:71px;
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-size: 125px 71px;
+  margin:40px 40px;
+}
+
+.logo span{
+  display: none;
+}
+
+.gallery span{
+  display: none;
+}
+
+section {
+  width: 100%;
+  padding: 0 0%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-image: url("../img/pattern.png");
+  background-size: 700px;
+  background-color: #193744;
+  height: 100vh;
+}
+
+.intro {
+  height: 90vh;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.about {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.navigation{
+    height: 10vh;
+    background-color: $background_color;
+    border-top: solid 1px #2E4954;
+}
+
+.navigation ul{
+	width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  height: 28px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.navigation li{
+  display: block;
+	margin-right: 5%;
+  margin-left: 5%;
+	display: inline-block;
+  padding: 0px;
+/*  border:solid 1px red;*/
+}
+
+.navigation a {
+  color: #193744;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.navigation a:hover {
+  color: #D25D36;
+}
+
+.gallery{
+  height: 375px;
+  margin-bottom: 40px;
+  background-color:#ccc;
+  background-image: url("../img/gallery.png");
+  background-size: 1280px 375px;
+}
+
+.footer{
+  background-color:#193744;
+  color:#ccc;
+  padding: 50px 0px 80px 0px;
+  margin-top: 40px;
+}
+
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+.rowFooter{
+	max-width: 62.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0.83em;
+}
+
+h3 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-margin-after: 25px;
+
+}
+
+h4 {
+  font-weight: bold;
+  margin: 0px;
+  padding:0px;
+}
+
+p {
+  font-weight: 300;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 2em;
+}
+
+a {
+  font-weight: 500;
+  color: #FF916D;
+
+  
+  &:hover{ 
+    opacity: 0.8;
+  }
+  
+  &:active {
+    top: 1px;
+  }
+}
+
+a.button {
+  display: inline-block;
+  margin-top: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border:solid 2px white;
+  padding:8px 20px;
+  letter-spacing: 2px;
+
+&:hover{ 
+    opacity: 0.8;
+  }
+
+}
+
+table{
+  width:100%;
+}
+
+
+.menu{
+  margin-bottom: 10px;
+}
+
+.menu ul{
+  margin: 0px 0px 30px 0px;
+  padding: 0px;
+}
+
+.menu li{
+  list-style-type: none;
+  line-height: 22px;
+  margin-bottom: 4px;
+}
+
+
+@media screen and (max-width: 760px) {
+
+
+.logo {
+  display: block;
+  width:125px;
+  height:71px;
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-size: 125px 71px;
+  margin:25px 20px;
+}
+
+section {
+  width: 100%;
+  padding: 0 0%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-image: url("../img/pattern.png");
+  background-size: 700px;
+  background-color: #193744;
+  height: 100vh;
+}
+
+.intro {
+  height: 80vh;
+}
+
+.navigation{
+  height: 20vh;
+  background-color: $background_color;
+  border-top: solid 1px #2E4954;
+}
+
+.navigation ul{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  display: block;
+  height: 65px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -moz-column-count: 2;
+  -moz-column-gap: 0px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 0px;
+  column-count: 2;
+  column-gap: 0px;
+}
+
+.navigation li{
+  display: block;
+  padding: 0px;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: left;
+}
+
+.gallery{
+  height: 375px;
+  margin-bottom: 20px;
+  background-color:#ccc;
+  background-image: url("../img/gallery-mobile.png");
+  background-size: 1125px 375px;
+}
+
+.menu li{
+  list-style-type: none;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+
+a.button {
+  display: block;
+  margin-top: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  border:solid 2px white;
+  padding:12px 20px;
+
+&:hover{ 
+    opacity: 0.8;
+  }
+
+}
+
+}
