@@ -1,4 +1,4 @@
-$background_color: #F2EFEB;
+$background_color: #E8EAEA;
 $link_color: #001eff;
 
 
@@ -12,17 +12,13 @@ body {
   color:#333;
 }
 
-* {
-  box-sizing: border-box; 
-}
-
 .logo {
   display: block;
-  width:125px;
-  height:71px;
+  width:114px;
+  height:73px;
   background-image: url("../img/logo.png");
   background-repeat: no-repeat;
-  background-size: 125px 71px;
+  background-size: 114px 73px;
   margin:40px 40px;
 }
 
@@ -181,7 +177,6 @@ a.button {
 &:hover{ 
     opacity: 0.8;
   }
-
 }
 
 table{
@@ -224,11 +219,11 @@ table{
 
 .logo {
   display: block;
-  width:125px;
-  height:71px;
+  width:114px;
+  height:73px;
   background-image: url("../img/logo.png");
   background-repeat: no-repeat;
-  background-size: 125px 71px;
+  background-size: 90px 58px;
   margin:25px 20px;
 }
 
