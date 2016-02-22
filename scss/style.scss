@@ -1,5 +1,6 @@
 $background_color: #E8EAEA;
 $link_color: #001eff;
+$navigation: #193744;
 
 
 body {
@@ -58,7 +59,7 @@ section {
 
 .navigation{
     height: 10vh;
-    background-color: $background_color;
+    background-color: $navigation;
     border-top: solid 1px #2E4954;
 }
 
@@ -76,32 +77,37 @@ section {
 
 .navigation li{
   display: block;
-	margin-right: 5%;
-  margin-left: 5%;
+	margin-right: 16%;
+  margin-left: 0%;
 	display: inline-block;
   padding: 0px;
 /*  border:solid 1px red;*/
 }
 
+.navigation li:last-child {
+  margin-right: 0px;
+}
+
 .navigation a {
-  color: #193744;
+  color: #fff;
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1px;
+
+  &:hover{ 
+    opacity: 0.8;
+  }
 }
 
-.navigation a:hover {
-  color: #D25D36;
-}
 
 .gallery{
   height: 375px;
   margin-bottom: 40px;
   background-color:#ccc;
   background-image: url("../img/gallery.png");
-  background-size: 1280px 375px;
+  background-size: 1430px 390px;
 }
 
 .footer{
