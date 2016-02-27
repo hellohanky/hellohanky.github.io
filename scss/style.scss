@@ -31,6 +31,12 @@ body {
   display: none;
 }
 
+.about-rok{
+margin-bottom:30px;
+display:block;
+}
+
+
 section {
   width: 100%;
   padding: 0 0%;
@@ -261,20 +267,15 @@ section {
   padding: 0px;
   margin-top: 20px;
   display: block;
-  -moz-column-count: 2;
-  -moz-column-gap: 0px;
-  -webkit-column-count: 2;
-  -webkit-column-gap: 0px;
-  column-count: 2;
-  column-gap: 0px;
 }
 
 .navigation li{
   display: block;
-  padding: 0px;
   margin: 0 auto;
   padding: 5px;
   text-align: left;
+  width: 50%;
+  float: left;
 }
 
 .gallery{

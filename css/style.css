@@ -31,6 +31,12 @@ body {
 }
 
 /* line 34, ../scss/style.scss */
+.about-rok {
+  margin-bottom: 30px;
+  display: block;
+}
+
+/* line 40, ../scss/style.scss */
 section {
   width: 100%;
   padding: 0 0%;
@@ -43,24 +49,24 @@ section {
   height: 100vh;
 }
 
-/* line 46, ../scss/style.scss */
+/* line 52, ../scss/style.scss */
 .intro {
   height: 94vh;
 }
 
-/* line 50, ../scss/style.scss */
+/* line 56, ../scss/style.scss */
 .content {
   display: table-cell;
   vertical-align: top;
 }
 
-/* line 55, ../scss/style.scss */
+/* line 61, ../scss/style.scss */
 .about {
   display: table-cell;
   vertical-align: bottom;
 }
 
-/* line 61, ../scss/style.scss */
+/* line 67, ../scss/style.scss */
 .navigation {
   background-color: #193744;
   border-top: solid 1px #2E4954;
@@ -71,7 +77,7 @@ section {
   height: 70px;
 }
 
-/* line 71, ../scss/style.scss */
+/* line 77, ../scss/style.scss */
 .navigation ul {
   width: 100%;
   margin: 0px;
@@ -79,7 +85,7 @@ section {
   text-align: center;
 }
 
-/* line 78, ../scss/style.scss */
+/* line 84, ../scss/style.scss */
 .navigation li {
   display: block;
   margin-right: 15%;
@@ -88,12 +94,12 @@ section {
   margin-top: 22px;
 }
 
-/* line 86, ../scss/style.scss */
+/* line 92, ../scss/style.scss */
 .navigation li:last-child {
   margin-right: 0px;
 }
 
-/* line 90, ../scss/style.scss */
+/* line 96, ../scss/style.scss */
 .navigation a {
   color: #fff;
   font-size: 14px;
@@ -102,12 +108,12 @@ section {
   text-decoration: none;
   letter-spacing: 1px;
 }
-/* line 98, ../scss/style.scss */
+/* line 104, ../scss/style.scss */
 .navigation a:hover {
   opacity: 0.8;
 }
 
-/* line 104, ../scss/style.scss */
+/* line 110, ../scss/style.scss */
 .gallery {
   height: 375px;
   margin-bottom: 40px;
@@ -116,7 +122,7 @@ section {
   background-size: 1430px 390px;
 }
 
-/* line 112, ../scss/style.scss */
+/* line 118, ../scss/style.scss */
 .footer {
   background-color: #193744;
   color: #ccc;
@@ -124,7 +130,7 @@ section {
   margin-top: 40px;
 }
 
-/* line 120, ../scss/style.scss */
+/* line 126, ../scss/style.scss */
 .fullWidth {
   width: 100%;
   margin-left: auto;
@@ -132,20 +138,20 @@ section {
   max-width: initial;
 }
 
-/* line 127, ../scss/style.scss */
+/* line 133, ../scss/style.scss */
 .rowFooter {
   max-width: 62.5rem;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 133, ../scss/style.scss */
+/* line 139, ../scss/style.scss */
 h1 {
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0.83em;
 }
 
-/* line 138, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 h3 {
   font-weight: 700;
   letter-spacing: 1px;
@@ -153,35 +159,35 @@ h3 {
   -webkit-margin-after: 25px;
 }
 
-/* line 146, ../scss/style.scss */
+/* line 152, ../scss/style.scss */
 h4 {
   font-weight: bold;
   margin: 0px;
   padding: 0px;
 }
 
-/* line 152, ../scss/style.scss */
+/* line 158, ../scss/style.scss */
 p {
   font-weight: 300;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 2em;
 }
 
-/* line 158, ../scss/style.scss */
+/* line 164, ../scss/style.scss */
 a {
   font-weight: 500;
   color: #FF916D;
 }
-/* line 163, ../scss/style.scss */
+/* line 169, ../scss/style.scss */
 a:hover {
   opacity: 0.8;
 }
-/* line 167, ../scss/style.scss */
+/* line 173, ../scss/style.scss */
 a:active {
   top: 1px;
 }
 
-/* line 172, ../scss/style.scss */
+/* line 178, ../scss/style.scss */
 a.button {
   display: inline-block;
   margin-top: 30px;
@@ -193,35 +199,35 @@ a.button {
   padding: 8px 20px;
   letter-spacing: 2px;
 }
-/* line 183, ../scss/style.scss */
+/* line 189, ../scss/style.scss */
 a.button:hover {
   opacity: 0.8;
 }
 
-/* line 188, ../scss/style.scss */
+/* line 194, ../scss/style.scss */
 table {
   width: 100%;
 }
 
-/* line 192, ../scss/style.scss */
+/* line 198, ../scss/style.scss */
 .menu {
   margin-bottom: 10px;
 }
 
-/* line 196, ../scss/style.scss */
+/* line 202, ../scss/style.scss */
 .menu ul {
   margin: 0px 0px 30px 0px;
   padding: 0px;
 }
 
-/* line 201, ../scss/style.scss */
+/* line 207, ../scss/style.scss */
 .menu li {
   list-style-type: none;
   line-height: 22px;
   margin-bottom: 4px;
 }
 
-/* line 207, ../scss/style.scss */
+/* line 213, ../scss/style.scss */
 .social ul {
   margin-top: 40px;
   padding-top: 20px;
@@ -229,7 +235,7 @@ table {
   text-align: center;
 }
 
-/* line 215, ../scss/style.scss */
+/* line 221, ../scss/style.scss */
 .social li {
   display: inline-block;
   list-style-type: none;
@@ -240,7 +246,7 @@ table {
 }
 
 @media screen and (max-width: 800px) {
-  /* line 226, ../scss/style.scss */
+  /* line 232, ../scss/style.scss */
   .logo {
     display: block;
     background-image: url("../img/logo.png");
@@ -248,7 +254,7 @@ table {
     margin: 25px 20px;
   }
 
-  /* line 236, ../scss/style.scss */
+  /* line 242, ../scss/style.scss */
   section {
     width: 100%;
     padding: 0 0%;
@@ -261,41 +267,36 @@ table {
     height: 100vh;
   }
 
-  /* line 248, ../scss/style.scss */
+  /* line 254, ../scss/style.scss */
   .intro {
     height: 94vh;
   }
 
-  /* line 252, ../scss/style.scss */
+  /* line 258, ../scss/style.scss */
   .navigation {
     border-top: solid 1px #2E4954;
     height: 110px;
   }
 
-  /* line 259, ../scss/style.scss */
+  /* line 265, ../scss/style.scss */
   .navigation ul {
     width: 100%;
     padding: 0px;
     margin-top: 20px;
     display: block;
-    -moz-column-count: 2;
-    -moz-column-gap: 0px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 0px;
-    column-count: 2;
-    column-gap: 0px;
   }
 
   /* line 272, ../scss/style.scss */
   .navigation li {
     display: block;
-    padding: 0px;
     margin: 0 auto;
     padding: 5px;
     text-align: left;
+    width: 50%;
+    float: left;
   }
 
-  /* line 280, ../scss/style.scss */
+  /* line 281, ../scss/style.scss */
   .gallery {
     height: 375px;
     margin-bottom: 20px;
@@ -304,14 +305,14 @@ table {
     background-size: 1125px 375px;
   }
 
-  /* line 288, ../scss/style.scss */
+  /* line 289, ../scss/style.scss */
   .menu li {
     list-style-type: none;
     line-height: 20px;
     margin-bottom: 12px;
   }
 
-  /* line 294, ../scss/style.scss */
+  /* line 295, ../scss/style.scss */
   a.button {
     display: block;
     margin-top: 30px;
@@ -321,12 +322,12 @@ table {
     border: solid 2px white;
     padding: 12px 20px;
   }
-  /* line 303, ../scss/style.scss */
+  /* line 304, ../scss/style.scss */
   a.button:hover {
     opacity: 0.8;
   }
 
-  /* line 309, ../scss/style.scss */
+  /* line 310, ../scss/style.scss */
   .column, .columns {
     padding-left: 2rem;
     padding-right: 2rem;
