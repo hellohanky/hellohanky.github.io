@@ -1,6 +1,6 @@
 $(window).scroll(function() {
 
-    if ($(this).scrollTop()>0)
+    if ($(this).scrollTop()>70)
      {
         $('.navigation').fadeOut();
      }
