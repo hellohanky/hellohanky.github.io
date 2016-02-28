@@ -31,12 +31,6 @@ body {
   display: none;
 }
 
-.about-rok{
-margin-bottom:30px;
-display:block;
-}
-
-
 section {
   width: 100%;
   padding: 0 0%;
@@ -106,7 +100,6 @@ section {
   }
 }
 
-
 .gallery{
   height: 375px;
   margin-bottom: 40px;
@@ -159,6 +152,14 @@ p {
   font-weight: 300;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 2em;
+}
+
+hr{
+    border: 1;
+    height: 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 0px solid #fff;
+    margin:50px 0px 30px 0px;
 }
 
 a {
@@ -278,6 +279,10 @@ section {
   float: left;
 }
 
+.navigation a{
+font-size: 13px;
+}
+
 .gallery{
   height: 375px;
   margin-bottom: 20px;
@@ -308,8 +313,8 @@ a.button {
 }
 
 .column, .columns {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
 }
 
 }
