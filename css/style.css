@@ -71,7 +71,7 @@ section {
   height: 70px;
 }
 
-/* line 71, ../scss/style.scss */
+/* line 70, ../scss/style.scss */
 .navigation ul {
   width: 100%;
   margin: 0px;
@@ -79,7 +79,7 @@ section {
   text-align: center;
 }
 
-/* line 78, ../scss/style.scss */
+/* line 77, ../scss/style.scss */
 .navigation li {
   display: block;
   margin-right: 15%;
@@ -88,12 +88,12 @@ section {
   margin-top: 22px;
 }
 
-/* line 86, ../scss/style.scss */
+/* line 85, ../scss/style.scss */
 .navigation li:last-child {
   margin-right: 0px;
 }
 
-/* line 90, ../scss/style.scss */
+/* line 89, ../scss/style.scss */
 .navigation a {
   color: #fff;
   font-size: 14px;
@@ -102,12 +102,12 @@ section {
   text-decoration: none;
   letter-spacing: 1px;
 }
-/* line 98, ../scss/style.scss */
+/* line 97, ../scss/style.scss */
 .navigation a:hover {
   opacity: 0.8;
 }
 
-/* line 103, ../scss/style.scss */
+/* line 102, ../scss/style.scss */
 .gallery {
   height: 375px;
   margin-bottom: 40px;
@@ -116,15 +116,15 @@ section {
   background-size: 1430px 390px;
 }
 
-/* line 111, ../scss/style.scss */
+/* line 110, ../scss/style.scss */
 .footer {
   background-color: #193744;
   color: #ccc;
-  padding: 50px 0px 70px 0px;
+  padding: 50px 0px 110px 0px;
   margin-top: 40px;
 }
 
-/* line 119, ../scss/style.scss */
+/* line 118, ../scss/style.scss */
 .fullWidth {
   width: 100%;
   margin-left: auto;
@@ -132,20 +132,20 @@ section {
   max-width: initial;
 }
 
-/* line 126, ../scss/style.scss */
+/* line 125, ../scss/style.scss */
 .rowFooter {
   max-width: 62.5rem;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 132, ../scss/style.scss */
+/* line 131, ../scss/style.scss */
 h1 {
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0.83em;
 }
 
-/* line 137, ../scss/style.scss */
+/* line 136, ../scss/style.scss */
 h3 {
   font-weight: 700;
   letter-spacing: 1px;
@@ -153,21 +153,21 @@ h3 {
   -webkit-margin-after: 25px;
 }
 
-/* line 145, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 h4 {
   font-weight: bold;
   margin: 0px;
   padding: 0px;
 }
 
-/* line 151, ../scss/style.scss */
+/* line 150, ../scss/style.scss */
 p {
   font-weight: 300;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 2em;
 }
 
-/* line 157, ../scss/style.scss */
+/* line 156, ../scss/style.scss */
 hr {
   border: 1;
   height: 0;
@@ -176,21 +176,21 @@ hr {
   margin: 50px 0px 30px 0px;
 }
 
-/* line 165, ../scss/style.scss */
+/* line 164, ../scss/style.scss */
 a {
   font-weight: 500;
   color: #FF916D;
 }
-/* line 170, ../scss/style.scss */
+/* line 169, ../scss/style.scss */
 a:hover {
   opacity: 0.8;
 }
-/* line 174, ../scss/style.scss */
+/* line 173, ../scss/style.scss */
 a:active {
   top: 1px;
 }
 
-/* line 179, ../scss/style.scss */
+/* line 178, ../scss/style.scss */
 a.button {
   display: inline-block;
   margin-top: 30px;
@@ -202,54 +202,52 @@ a.button {
   padding: 8px 20px;
   letter-spacing: 2px;
 }
-/* line 190, ../scss/style.scss */
+/* line 189, ../scss/style.scss */
 a.button:hover {
   opacity: 0.8;
 }
 
-/* line 195, ../scss/style.scss */
+/* line 194, ../scss/style.scss */
 table {
   width: 100%;
 }
 
-/* line 199, ../scss/style.scss */
+/* line 198, ../scss/style.scss */
 .menu {
   margin-bottom: 10px;
 }
 
-/* line 203, ../scss/style.scss */
+/* line 202, ../scss/style.scss */
 .menu ul {
   margin: 0px 0px 30px 0px;
   padding: 0px;
 }
 
-/* line 208, ../scss/style.scss */
+/* line 207, ../scss/style.scss */
 .menu li {
   list-style-type: none;
   line-height: 22px;
   margin-bottom: 4px;
 }
 
-/* line 214, ../scss/style.scss */
+/* line 213, ../scss/style.scss */
 .social ul {
-  margin-top: 40px;
-  padding-top: 20px;
-  border-top: solid 1px #234452;
-  text-align: center;
+  margin-top: 0px;
+  padding: 0px;
 }
 
-/* line 222, ../scss/style.scss */
+/* line 218, ../scss/style.scss */
 .social li {
   display: inline-block;
   list-style-type: none;
   line-height: 22px;
-  margin-right: 30px;
+  margin-right: 20px;
   width: 32px;
   height: 32px;
 }
 
 @media screen and (max-width: 800px) {
-  /* line 233, ../scss/style.scss */
+  /* line 230, ../scss/style.scss */
   .logo {
     display: block;
     background-image: url("../img/logo.png");
@@ -257,7 +255,7 @@ table {
     margin: 25px 20px;
   }
 
-  /* line 243, ../scss/style.scss */
+  /* line 237, ../scss/style.scss */
   section {
     width: 100%;
     padding: 0 0%;
@@ -270,18 +268,19 @@ table {
     height: 100vh;
   }
 
-  /* line 255, ../scss/style.scss */
+  /* line 249, ../scss/style.scss */
   .intro {
     height: 94vh;
   }
 
-  /* line 259, ../scss/style.scss */
+  /* line 253, ../scss/style.scss */
   .navigation {
     border-top: solid 1px #2E4954;
-    height: 110px;
+    height: 80px;
+    line-height: 16px;
   }
 
-  /* line 266, ../scss/style.scss */
+  /* line 260, ../scss/style.scss */
   .navigation ul {
     width: 100%;
     padding: 0px;
@@ -289,22 +288,22 @@ table {
     display: block;
   }
 
-  /* line 273, ../scss/style.scss */
+  /* line 267, ../scss/style.scss */
   .navigation li {
     display: block;
     margin: 0 auto;
     padding: 5px;
-    text-align: left;
-    width: 50%;
+    text-align: center;
+    width: 25%;
     float: left;
   }
 
-  /* line 282, ../scss/style.scss */
+  /* line 276, ../scss/style.scss */
   .navigation a {
-    font-size: 13px;
+    font-size: 12px;
   }
 
-  /* line 286, ../scss/style.scss */
+  /* line 280, ../scss/style.scss */
   .gallery {
     height: 375px;
     margin-bottom: 20px;
@@ -313,14 +312,14 @@ table {
     background-size: 1125px 375px;
   }
 
-  /* line 294, ../scss/style.scss */
+  /* line 288, ../scss/style.scss */
   .menu li {
     list-style-type: none;
     line-height: 20px;
     margin-bottom: 12px;
   }
 
-  /* line 300, ../scss/style.scss */
+  /* line 294, ../scss/style.scss */
   a.button {
     display: block;
     margin-top: 30px;
@@ -330,14 +329,31 @@ table {
     border: solid 2px white;
     padding: 12px 20px;
   }
-  /* line 309, ../scss/style.scss */
+  /* line 303, ../scss/style.scss */
   a.button:hover {
     opacity: 0.8;
   }
 
-  /* line 315, ../scss/style.scss */
+  /* line 309, ../scss/style.scss */
   .column, .columns {
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  /* line 314, ../scss/style.scss */
+  .social ul {
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  /* line 321, ../scss/style.scss */
+  .social li {
+    display: inline-block;
+    list-style-type: none;
+    line-height: 22px;
+    margin-right: 30px;
+    width: 32px;
+    height: 32px;
   }
 }
