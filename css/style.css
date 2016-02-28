@@ -342,8 +342,8 @@ table {
 
   /* line 314, ../scss/style.scss */
   .social ul {
-    margin-top: 40px;
-    padding-top: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
     text-align: center;
   }
 
@@ -355,5 +355,13 @@ table {
     margin-right: 30px;
     width: 32px;
     height: 32px;
+  }
+
+  /* line 331, ../scss/style.scss */
+  .footer {
+    background-color: #193744;
+    color: #ccc;
+    padding: 50px 0px 80px 0px;
+    margin-top: 40px;
   }
 }
