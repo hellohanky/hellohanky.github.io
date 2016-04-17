@@ -15,11 +15,11 @@ body {
 
 .logo {
   display: block;
-  width:100px;
-  height:54px;
-  background-image: url("../img/logo.png");
+  width:130px;
+  height:70px;
+  background-image: url("../img/logo-rok.png");
   background-repeat: no-repeat;
-  background-size: 100px 54px;
+  background-size: 130px 70px;
   margin:30px 30px;
 }
 
@@ -100,10 +100,10 @@ section {
 }
 
 .gallery{
-  height: 375px;
+  height: 390px;
   margin-bottom: 40px;
   background-color:#ccc;
-  background-image: url("../img/gallery.png");
+  background-image: url("../img/gallery.jpg");
   background-size: 1430px 390px;
 }
 
@@ -210,18 +210,32 @@ table{
   margin-bottom: 4px;
 }
 
-.social ul{
-  margin-top:0px;
-  padding: 0px;
+#social{
+  position:fixed;
+  right: 0; 
+  height:120px;
+  top: 50%;
+  margin-top: -60px; /* minus half the height */
+}
+
+
+ul.social{
+  margin:0px;
+}
+
+ul.social, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
 }
 
 .social li{
-  display: inline-block;
   list-style-type: none;
-  line-height: 22px;
-  margin-right: 20px;
-  width:32px;
-  height:32px;
+  padding:10px 14px 10px 10px;
 }
 
 
@@ -281,8 +295,8 @@ font-size: 12px;
   height: 375px;
   margin-bottom: 20px;
   background-color:#ccc;
-  background-image: url("../img/gallery-mobile.png");
-  background-size: 1125px 375px;
+  background-image: url("../img/gallery-mobile.jpg");
+  background-size: 750px 375px;
 }
 
 .menu li{
@@ -309,23 +323,6 @@ a.button {
 .column, .columns {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-}
-
-.social ul{
-  margin-top:20px;
-  padding-top: 10px;
-  text-align: center;
-
-}
-
-.social li{
-  display: inline-block;
-  list-style-type: none;
-  line-height: 22px;
-  margin-right: 30px;
-  width:32px;
-  height:32px;
-
 }
 
 .footer {

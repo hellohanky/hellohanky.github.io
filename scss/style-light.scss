@@ -1,0 +1,335 @@
+$background_color: #E8EAEA;
+$link_color: #001eff;
+$navigation: #ECEFEF;
+
+
+body {
+  margin: 0; 
+  font-weight: 300;
+  font-family: 'Basis Grotesque', helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  background-color: $background_color;
+  color:#193744;
+}
+
+.logo {
+  display: block;
+  width:130px;
+  height:70px;
+  background-image: url("../img/logo-rok-light.png");
+  background-repeat: no-repeat;
+  background-size: 130px 70px;
+  margin:30px 30px;
+}
+
+.logo span{
+  display: none;
+}
+
+.gallery span{
+  display: none;
+}
+
+section {
+  width: 100%;
+  padding: 0 0%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-image: url("../img/pattern-light.png");
+  background-size: 700px;
+  background-color: #193744;
+  height: 100vh;
+}
+
+.intro {
+  height: 94vh;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.about {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+
+.navigation{
+  background-color: $navigation;
+  border-top: solid 1px #EDF0F1;
+  display: block; 
+  width:100%;
+  position:fixed; bottom:0;
+  height:70px
+}
+
+.navigation ul{
+	width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.navigation li{
+  display: block;
+	margin-right: 15%;
+  margin-left: 0%;
+	display: inline-block;
+  margin-top: 22px;
+}
+
+.navigation li:last-child {
+  margin-right: 0px;
+}
+
+.navigation a {
+  color: #1B3742;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+
+  &:hover{ 
+    opacity: 0.8;
+  }
+}
+
+.gallery{
+  height: 390px;
+  margin-bottom: 40px;
+  background-color:#ccc;
+  background-image: url("../img/gallery.jpg");
+  background-size: 1430px 390px;
+}
+
+.footer{
+  background-color:#193744;
+  color:#ccc;
+  padding: 50px 0px 110px 0px;
+  margin-top: 40px;
+
+}
+
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+.rowFooter{
+	max-width: 62.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0.83em;
+}
+
+h3 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-margin-after: 25px;
+
+}
+
+h4 {
+  font-weight: bold;
+  margin: 0px;
+  padding:0px;
+}
+
+p {
+  font-weight: 300;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 2em;
+}
+
+hr{
+    border: 1;
+    height: 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 0px solid #fff;
+    margin:50px 0px 30px 0px;
+}
+
+a {
+  font-weight: 500;
+  color: #FF916D;
+
+  
+  &:hover{ 
+    opacity: 0.8;
+  }
+  
+  &:active {
+    top: 1px;
+  }
+}
+
+a.button {
+  display: inline-block;
+  margin-top: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border:solid 2px white;
+  padding:8px 20px;
+  letter-spacing: 2px;
+
+&:hover{ 
+    opacity: 0.8;
+  }
+}
+
+table{
+  width:100%;
+}
+
+.menu{
+  margin-bottom: 10px;
+}
+
+.menu ul{
+  margin: 0px 0px 30px 0px;
+  padding: 0px;
+}
+
+.menu li{
+  list-style-type: none;
+  line-height: 22px;
+  margin-bottom: 4px;
+}
+
+.social ul{
+  margin-top:0px;
+  padding: 0px;
+}
+
+.social li{
+  display: inline-block;
+  list-style-type: none;
+  line-height: 22px;
+  margin-right: 20px;
+  width:32px;
+  height:32px;
+}
+
+
+@media screen and (max-width: 800px) {
+
+.logo {
+  display: block;
+  background-repeat: no-repeat;
+  margin:25px 20px;
+}
+
+section {
+  width: 100%;
+  padding: 0 0%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-size: 700px;
+  background-color: #193744;
+  height: 100vh;
+}
+
+.intro {
+  height: 94vh;
+}
+
+.navigation{
+  // height: 20vh;
+  height: 60px;
+  line-height: 16px;
+}
+
+.navigation ul{
+  width: 100%;
+  padding: 0px;
+  margin-top: 7px;
+  display: block;
+}
+
+.navigation li{
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+  width:25%;
+  float:left
+}
+
+.navigation a{
+font-size: 12px;
+}
+
+.gallery{
+  height: 375px;
+  margin-bottom: 20px;
+  background-color:#ccc;
+  background-image: url("../img/gallery-mobile.jpg");
+  background-size: 750px 375px;
+}
+
+.menu li{
+  list-style-type: none;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+a.button {
+  display: block;
+  margin-top: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  border:solid 2px white;
+  padding:12px 20px;
+
+&:hover{ 
+    opacity: 0.8;
+  }
+
+}
+
+.column, .columns {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.social ul{
+  margin-top:20px;
+  padding-top: 10px;
+  text-align: center;
+
+}
+
+.social li{
+  display: inline-block;
+  list-style-type: none;
+  line-height: 22px;
+  margin-right: 30px;
+  width:32px;
+  height:32px;
+
+}
+
+.footer {
+    background-color: #193744;
+    color: #ccc;
+    padding: 50px 0px 80px 0px;
+    margin-top: 40px;
+}
+
+}
