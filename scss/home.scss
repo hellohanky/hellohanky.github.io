@@ -1,9 +1,9 @@
-html, body { height: 100%; padding: 0; margin: 0; background: #1A3743;}
+html, body { height: 100%; padding: 0; margin: 0; background: #1a3743; font-family: 'Basis Grotesque', helvetica, sans-serif;
+}
 .fifty { width: 49.9%; height: 100%; float: left; }
-#div1 { background: #1A3743; /*border-right: 1px solid #314B56;*/ }
-#div2 { background: #1A3743;  }
 
-
+// #div1 { background: #1A3743; border-right: 1px solid #314B56; }
+// #div2 { background: #1A3743;  }
 
 .children{
 	text-align: center;
@@ -13,7 +13,6 @@ html, body { height: 100%; padding: 0; margin: 0; background: #1A3743;}
 	transform: translateY(-50%);
 }
 
-
 .link{
     color: #fff;
     text-transform: uppercase;
@@ -22,8 +21,6 @@ html, body { height: 100%; padding: 0; margin: 0; background: #1A3743;}
     letter-spacing: 2px;
 }
 
-
-
 .logo-start{
   level:100;
   position:absolute;
@@ -31,7 +28,6 @@ html, body { height: 100%; padding: 0; margin: 0; background: #1A3743;}
   width:130px;
   height:70px;
 }
-
 
 .logo-inverted {
   display: block;
@@ -43,11 +39,44 @@ html, body { height: 100%; padding: 0; margin: 0; background: #1A3743;}
   margin:30px 30px;
 }
 
-
 .logo-inverted span{
   display: none;
 }
 
 .streetname{
 	color:#fff;
+}
+
+
+.logo {
+  display: block;
+  width:130px;
+  height:70px;
+  background-image: url("../img/logo-rok-light.png");
+  background-repeat: no-repeat;
+  background-size: 130px 70px;
+  margin:30px 30px;
+}
+
+.logo span{
+  display: none;
+}
+
+.gallery span{
+  display: none;
+}
+
+section {
+  width: 100%;
+  padding: 0 0%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-image: url("../img/pattern-dark.png");
+  background-size: 700px;
+  height: 100vh;
+}
+
+.intro {
+  height: 94vh;
 }
