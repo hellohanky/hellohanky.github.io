@@ -1,0 +1,73 @@
+/* line 1, ../scss/home.scss */
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: #1A3743;
+}
+
+/* line 2, ../scss/home.scss */
+.fifty {
+  width: 49.9%;
+  height: 100%;
+  float: left;
+}
+
+/* line 3, ../scss/home.scss */
+#div1 {
+  background: #1A3743;
+  /*border-right: 1px solid #314B56;*/
+}
+
+/* line 4, ../scss/home.scss */
+#div2 {
+  background: #1A3743;
+}
+
+/* line 8, ../scss/home.scss */
+.children {
+  text-align: center;
+  height: 50px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 17, ../scss/home.scss */
+.link {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 1.8em;
+  letter-spacing: 2px;
+}
+
+/* line 27, ../scss/home.scss */
+.logo-start {
+  level: 100;
+  position: absolute;
+  display: block;
+  width: 130px;
+  height: 70px;
+}
+
+/* line 36, ../scss/home.scss */
+.logo-inverted {
+  display: block;
+  width: 130px;
+  height: 70px;
+  background-image: url("../img/logo-rok.png");
+  background-repeat: no-repeat;
+  background-size: 130px 70px;
+  margin: 30px 30px;
+}
+
+/* line 47, ../scss/home.scss */
+.logo-inverted span {
+  display: none;
+}
+
+/* line 51, ../scss/home.scss */
+.streetname {
+  color: #fff;
+}

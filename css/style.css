@@ -9,7 +9,28 @@ body {
   color: #333;
 }
 
-/* line 16, ../scss/style.scss */
+/* line 17, ../scss/style.scss */
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 24, ../scss/style.scss */
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 29, ../scss/style.scss */
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+/* line 35, ../scss/style.scss */
 .logo {
   display: block;
   width: 130px;
@@ -20,17 +41,17 @@ body {
   margin: 30px 30px;
 }
 
-/* line 26, ../scss/style.scss */
+/* line 45, ../scss/style.scss */
 .logo span {
   display: none;
 }
 
-/* line 30, ../scss/style.scss */
+/* line 49, ../scss/style.scss */
 .gallery span {
   display: none;
 }
 
-/* line 34, ../scss/style.scss */
+/* line 53, ../scss/style.scss */
 section {
   width: 100%;
   padding: 0 0%;
@@ -43,24 +64,24 @@ section {
   height: 100vh;
 }
 
-/* line 46, ../scss/style.scss */
+/* line 65, ../scss/style.scss */
 .intro {
   height: 94vh;
 }
 
-/* line 50, ../scss/style.scss */
+/* line 69, ../scss/style.scss */
 .content {
   display: table-cell;
   vertical-align: top;
 }
 
-/* line 55, ../scss/style.scss */
+/* line 74, ../scss/style.scss */
 .about {
   display: table-cell;
   vertical-align: bottom;
 }
 
-/* line 61, ../scss/style.scss */
+/* line 80, ../scss/style.scss */
 .navigation {
   background-color: #193744;
   border-top: solid 1px #2E4954;
@@ -71,7 +92,7 @@ section {
   height: 70px;
 }
 
-/* line 70, ../scss/style.scss */
+/* line 89, ../scss/style.scss */
 .navigation ul {
   width: 100%;
   margin: 0px;
@@ -79,7 +100,7 @@ section {
   text-align: center;
 }
 
-/* line 77, ../scss/style.scss */
+/* line 96, ../scss/style.scss */
 .navigation li {
   display: block;
   margin-right: 15%;
@@ -88,12 +109,12 @@ section {
   margin-top: 22px;
 }
 
-/* line 85, ../scss/style.scss */
+/* line 104, ../scss/style.scss */
 .navigation li:last-child {
   margin-right: 0px;
 }
 
-/* line 89, ../scss/style.scss */
+/* line 108, ../scss/style.scss */
 .navigation a {
   color: #fff;
   font-size: 14px;
@@ -102,12 +123,12 @@ section {
   text-decoration: none;
   letter-spacing: 1px;
 }
-/* line 97, ../scss/style.scss */
+/* line 116, ../scss/style.scss */
 .navigation a:hover {
   opacity: 0.8;
 }
 
-/* line 102, ../scss/style.scss */
+/* line 121, ../scss/style.scss */
 .gallery {
   height: 390px;
   margin-bottom: 40px;
@@ -116,7 +137,7 @@ section {
   background-size: 1430px 390px;
 }
 
-/* line 110, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 .footer {
   background-color: #193744;
   color: #ccc;
@@ -124,7 +145,7 @@ section {
   margin-top: 40px;
 }
 
-/* line 118, ../scss/style.scss */
+/* line 137, ../scss/style.scss */
 .fullWidth {
   width: 100%;
   margin-left: auto;
@@ -132,20 +153,20 @@ section {
   max-width: initial;
 }
 
-/* line 125, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 .rowFooter {
   max-width: 62.5rem;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 131, ../scss/style.scss */
+/* line 150, ../scss/style.scss */
 h1 {
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0.83em;
 }
 
-/* line 136, ../scss/style.scss */
+/* line 155, ../scss/style.scss */
 h3 {
   font-weight: 700;
   letter-spacing: 1px;
@@ -153,21 +174,21 @@ h3 {
   -webkit-margin-after: 25px;
 }
 
-/* line 144, ../scss/style.scss */
+/* line 163, ../scss/style.scss */
 h4 {
   font-weight: bold;
   margin: 0px;
   padding: 0px;
 }
 
-/* line 150, ../scss/style.scss */
+/* line 169, ../scss/style.scss */
 p {
   font-weight: 300;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 2em;
 }
 
-/* line 156, ../scss/style.scss */
+/* line 175, ../scss/style.scss */
 hr {
   border: 1;
   height: 0;
@@ -176,21 +197,21 @@ hr {
   margin: 50px 0px 30px 0px;
 }
 
-/* line 164, ../scss/style.scss */
+/* line 183, ../scss/style.scss */
 a {
   font-weight: 500;
   color: #FF916D;
 }
-/* line 169, ../scss/style.scss */
+/* line 188, ../scss/style.scss */
 a:hover {
   opacity: 0.8;
 }
-/* line 173, ../scss/style.scss */
+/* line 192, ../scss/style.scss */
 a:active {
   top: 1px;
 }
 
-/* line 178, ../scss/style.scss */
+/* line 197, ../scss/style.scss */
 a.button {
   display: inline-block;
   margin-top: 30px;
@@ -202,50 +223,51 @@ a.button {
   padding: 8px 20px;
   letter-spacing: 2px;
 }
-/* line 189, ../scss/style.scss */
+/* line 208, ../scss/style.scss */
 a.button:hover {
   opacity: 0.8;
 }
 
-/* line 194, ../scss/style.scss */
+/* line 213, ../scss/style.scss */
 table {
   width: 100%;
 }
 
-/* line 198, ../scss/style.scss */
+/* line 217, ../scss/style.scss */
 .menu {
   margin-bottom: 10px;
 }
 
-/* line 202, ../scss/style.scss */
+/* line 221, ../scss/style.scss */
 .menu ul {
   margin: 0px 0px 30px 0px;
   padding: 0px;
 }
 
-/* line 207, ../scss/style.scss */
+/* line 226, ../scss/style.scss */
 .menu li {
   list-style-type: none;
   line-height: 22px;
   margin-bottom: 4px;
 }
 
-/* line 213, ../scss/style.scss */
+/* line 232, ../scss/style.scss */
 #social {
   position: fixed;
   right: 0;
-  height: 120px;
+  height: 150px;
   top: 50%;
-  margin-top: -60px;
+  margin-top: -75px;
   /* minus half the height */
+  background: #193744;
 }
 
-/* line 222, ../scss/style.scss */
+/* line 241, ../scss/style.scss */
 ul.social {
   margin: 0px;
 }
 
-/* line 226, ../scss/style.scss */
+/* line 245, ../scss/style.scss */
 ul.social, menu, dir {
   display: block;
   list-style-type: disc;
@@ -256,14 +278,14 @@ ul.social, menu, dir {
   -webkit-padding-start: 0px;
 }
 
-/* line 236, ../scss/style.scss */
+/* line 255, ../scss/style.scss */
 .social li {
   list-style-type: none;
-  padding: 10px 14px 10px 10px;
+  padding: 10px 10px 10px 10px;
 }
 
 @media screen and (max-width: 800px) {
-  /* line 244, ../scss/style.scss */
+  /* line 263, ../scss/style.scss */
   .logo {
     display: block;
     background-image: url("../img/logo.png");
@@ -271,7 +293,7 @@ ul.social, menu, dir {
     margin: 25px 20px;
   }
 
-  /* line 251, ../scss/style.scss */
+  /* line 270, ../scss/style.scss */
   section {
     width: 100%;
     padding: 0 0%;
@@ -284,19 +306,19 @@ ul.social, menu, dir {
     height: 100vh;
   }
 
-  /* line 263, ../scss/style.scss */
+  /* line 282, ../scss/style.scss */
   .intro {
     height: 94vh;
   }
 
-  /* line 267, ../scss/style.scss */
+  /* line 286, ../scss/style.scss */
   .navigation {
     border-top: solid 1px #2E4954;
     height: 60px;
     line-height: 16px;
   }
 
-  /* line 274, ../scss/style.scss */
+  /* line 293, ../scss/style.scss */
   .navigation ul {
     width: 100%;
     padding: 0px;
@@ -304,7 +326,7 @@ ul.social, menu, dir {
     display: block;
   }
 
-  /* line 281, ../scss/style.scss */
+  /* line 300, ../scss/style.scss */
   .navigation li {
     display: block;
     margin: 0 auto;
@@ -314,12 +336,12 @@ ul.social, menu, dir {
     float: left;
   }
 
-  /* line 290, ../scss/style.scss */
+  /* line 309, ../scss/style.scss */
   .navigation a {
     font-size: 12px;
   }
 
-  /* line 294, ../scss/style.scss */
+  /* line 313, ../scss/style.scss */
   .gallery {
     height: 375px;
     margin-bottom: 20px;
@@ -328,14 +350,14 @@ ul.social, menu, dir {
     background-size: 750px 375px;
   }
 
-  /* line 302, ../scss/style.scss */
+  /* line 321, ../scss/style.scss */
   .menu li {
     list-style-type: none;
     line-height: 20px;
     margin-bottom: 12px;
   }
 
-  /* line 308, ../scss/style.scss */
+  /* line 327, ../scss/style.scss */
   a.button {
     display: block;
     margin-top: 30px;
@@ -345,18 +367,18 @@ ul.social, menu, dir {
     border: solid 2px white;
     padding: 12px 20px;
   }
-  /* line 317, ../scss/style.scss */
+  /* line 336, ../scss/style.scss */
   a.button:hover {
     opacity: 0.8;
   }
 
-  /* line 323, ../scss/style.scss */
+  /* line 342, ../scss/style.scss */
   .column, .columns {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
   }
 
-  /* line 328, ../scss/style.scss */
+  /* line 347, ../scss/style.scss */
   .footer {
     background-color: #193744;
     color: #ccc;

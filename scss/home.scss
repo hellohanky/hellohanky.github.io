@@ -1,0 +1,53 @@
+html, body { height: 100%; padding: 0; margin: 0; background: #1A3743;}
+.fifty { width: 49.9%; height: 100%; float: left; }
+#div1 { background: #1A3743; /*border-right: 1px solid #314B56;*/ }
+#div2 { background: #1A3743;  }
+
+
+
+.children{
+	text-align: center;
+	height: 50px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+.link{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 1.8em;
+    letter-spacing: 2px;
+}
+
+
+
+.logo-start{
+  level:100;
+  position:absolute;
+  display: block;
+  width:130px;
+  height:70px;
+}
+
+
+.logo-inverted {
+  display: block;
+  width:130px;
+  height:70px;
+  background-image: url("../img/logo-rok.png");
+  background-repeat: no-repeat;
+  background-size: 130px 70px;
+  margin:30px 30px;
+}
+
+
+.logo-inverted span{
+  display: none;
+}
+
+.streetname{
+	color:#fff;
+}
