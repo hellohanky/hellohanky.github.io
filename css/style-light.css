@@ -102,14 +102,15 @@ section {
 
 /* line 96, ../scss/style-light.scss */
 .gallery {
-  height: 390px;
+  height: 0;
   margin-bottom: 40px;
   background-color: #ccc;
   background-image: url("../img/gallery.jpg");
-  background-size: 1430px 390px;
+  background-size: cover;
+  padding-top: 27%;
 }
 
-/* line 104, ../scss/style-light.scss */
+/* line 105, ../scss/style-light.scss */
 .footer {
   background-color: #193744;
   color: #ccc;
@@ -117,28 +118,28 @@ section {
   margin-top: 40px;
 }
 
-/* line 112, ../scss/style-light.scss */
+/* line 113, ../scss/style-light.scss */
 .fullWidth {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  max-width: initial;
+  max-width: none;
 }
 
-/* line 119, ../scss/style-light.scss */
+/* line 120, ../scss/style-light.scss */
 .rowFooter {
   max-width: 62.5rem;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 125, ../scss/style-light.scss */
+/* line 126, ../scss/style-light.scss */
 h1 {
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0.83em;
 }
 
-/* line 130, ../scss/style-light.scss */
+/* line 131, ../scss/style-light.scss */
 h3 {
   font-weight: 700;
   letter-spacing: 1px;
@@ -146,21 +147,21 @@ h3 {
   -webkit-margin-after: 25px;
 }
 
-/* line 137, ../scss/style-light.scss */
+/* line 138, ../scss/style-light.scss */
 h4 {
   font-weight: bold;
   margin: 0px;
   padding: 0px;
 }
 
-/* line 143, ../scss/style-light.scss */
+/* line 144, ../scss/style-light.scss */
 p {
   font-weight: 300;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 2em;
 }
 
-/* line 149, ../scss/style-light.scss */
+/* line 150, ../scss/style-light.scss */
 hr {
   border: 1;
   height: 0;
@@ -169,21 +170,21 @@ hr {
   margin: 50px 0px 30px 0px;
 }
 
-/* line 157, ../scss/style-light.scss */
+/* line 158, ../scss/style-light.scss */
 a {
   font-weight: 500;
   color: #FF916D;
 }
-/* line 162, ../scss/style-light.scss */
+/* line 163, ../scss/style-light.scss */
 a:hover {
   opacity: 0.8;
 }
-/* line 166, ../scss/style-light.scss */
+/* line 167, ../scss/style-light.scss */
 a:active {
   top: 1px;
 }
 
-/* line 171, ../scss/style-light.scss */
+/* line 172, ../scss/style-light.scss */
 a.button {
   display: inline-block;
   margin-top: 30px;
@@ -195,18 +196,18 @@ a.button {
   padding: 8px 20px;
   letter-spacing: 2px;
 }
-/* line 182, ../scss/style-light.scss */
+/* line 183, ../scss/style-light.scss */
 a.button:hover {
   opacity: 0.8;
 }
 
-/* line 188, ../scss/style-light.scss */
+/* line 189, ../scss/style-light.scss */
 ul.divider {
   width: 100%;
   background-color: #1A3743;
 }
 
-/* line 193, ../scss/style-light.scss */
+/* line 194, ../scss/style-light.scss */
 .divider li {
   list-style-type: none;
   line-height: 22px;
@@ -216,41 +217,41 @@ ul.divider {
   display: inline-block;
 }
 
-/* line 202, ../scss/style-light.scss */
+/* line 203, ../scss/style-light.scss */
 .divider .islington {
   float: left;
   width: 50%;
 }
 
-/* line 208, ../scss/style-light.scss */
+/* line 209, ../scss/style-light.scss */
 .divider li:last-child {
   border: 0px;
 }
 
-/* line 212, ../scss/style-light.scss */
+/* line 213, ../scss/style-light.scss */
 table {
   width: 100%;
 }
 
-/* line 216, ../scss/style-light.scss */
+/* line 217, ../scss/style-light.scss */
 .menu {
   margin-bottom: 10px;
 }
 
-/* line 220, ../scss/style-light.scss */
+/* line 221, ../scss/style-light.scss */
 .menu ul {
   margin: 0px 0px 30px 0px;
   padding: 0px;
 }
 
-/* line 225, ../scss/style-light.scss */
+/* line 226, ../scss/style-light.scss */
 .menu li {
   list-style-type: none;
   line-height: 22px;
   margin-bottom: 4px;
 }
 
-/* line 231, ../scss/style-light.scss */
+/* line 232, ../scss/style-light.scss */
 #social {
   position: fixed;
   right: 0;
@@ -261,12 +262,12 @@ table {
   background: #e4e6e6;
 }
 
-/* line 240, ../scss/style-light.scss */
+/* line 241, ../scss/style-light.scss */
 ul.social {
   margin: 0px;
 }
 
-/* line 244, ../scss/style-light.scss */
+/* line 245, ../scss/style-light.scss */
 ul.social, menu, dir {
   display: block;
   list-style-type: disc;
@@ -277,21 +278,21 @@ ul.social, menu, dir {
   -webkit-padding-start: 0px;
 }
 
-/* line 254, ../scss/style-light.scss */
+/* line 255, ../scss/style-light.scss */
 .social li {
   list-style-type: none;
   padding: 10px 10px 10px 10px;
 }
 
 @media screen and (max-width: 800px) {
-  /* line 262, ../scss/style-light.scss */
+  /* line 263, ../scss/style-light.scss */
   .logo {
     display: block;
     background-repeat: no-repeat;
     margin: 25px 20px;
   }
 
-  /* line 268, ../scss/style-light.scss */
+  /* line 269, ../scss/style-light.scss */
   section {
     width: 100%;
     padding: 0 0%;
@@ -302,18 +303,18 @@ ul.social, menu, dir {
     height: 100vh;
   }
 
-  /* line 278, ../scss/style-light.scss */
+  /* line 279, ../scss/style-light.scss */
   .intro {
     height: 94vh;
   }
 
-  /* line 282, ../scss/style-light.scss */
+  /* line 283, ../scss/style-light.scss */
   .navigation {
     height: 60px;
     line-height: 16px;
   }
 
-  /* line 288, ../scss/style-light.scss */
+  /* line 289, ../scss/style-light.scss */
   .navigation ul {
     width: 100%;
     padding: 0px;
@@ -321,7 +322,7 @@ ul.social, menu, dir {
     display: block;
   }
 
-  /* line 295, ../scss/style-light.scss */
+  /* line 296, ../scss/style-light.scss */
   .navigation li {
     display: block;
     margin: 0 auto;
@@ -331,12 +332,12 @@ ul.social, menu, dir {
     float: left;
   }
 
-  /* line 304, ../scss/style-light.scss */
+  /* line 305, ../scss/style-light.scss */
   .navigation a {
     font-size: 12px;
   }
 
-  /* line 308, ../scss/style-light.scss */
+  /* line 309, ../scss/style-light.scss */
   .gallery {
     height: 375px;
     margin-bottom: 20px;
@@ -345,14 +346,14 @@ ul.social, menu, dir {
     background-size: 750px 375px;
   }
 
-  /* line 316, ../scss/style-light.scss */
+  /* line 317, ../scss/style-light.scss */
   .menu li {
     list-style-type: none;
     line-height: 20px;
     margin-bottom: 12px;
   }
 
-  /* line 322, ../scss/style-light.scss */
+  /* line 323, ../scss/style-light.scss */
   a.button {
     display: block;
     margin-top: 30px;
@@ -362,18 +363,18 @@ ul.social, menu, dir {
     border: solid 2px white;
     padding: 12px 20px;
   }
-  /* line 331, ../scss/style-light.scss */
+  /* line 332, ../scss/style-light.scss */
   a.button:hover {
     opacity: 0.8;
   }
 
-  /* line 337, ../scss/style-light.scss */
+  /* line 338, ../scss/style-light.scss */
   .column, .columns {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
   }
 
-  /* line 342, ../scss/style-light.scss */
+  /* line 343, ../scss/style-light.scss */
   .footer {
     background-color: #193744;
     color: #ccc;
