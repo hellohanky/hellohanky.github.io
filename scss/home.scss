@@ -1,82 +1,53 @@
-html, body { height: 100%; padding: 0; margin: 0; background: #1a3743; font-family: 'Basis Grotesque', helvetica, sans-serif;
-}
-.fifty { width: 49.9%; height: 100%; float: left; }
-
-// #div1 { background: #1A3743; border-right: 1px solid #314B56; }
-// #div2 { background: #1A3743;  }
-
-.children{
-	text-align: center;
-	height: 50px;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-.link{
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: underline;
-    font-size: 1.8em;
-    letter-spacing: 2px;
-}
-
-.logo-start{
-  level:100;
-  position:absolute;
-  display: block;
-  width:130px;
-  height:70px;
-}
-
-.logo-inverted {
-  display: block;
-  width:130px;
-  height:70px;
-  background-image: url("../img/logo-rok.png");
-  background-repeat: no-repeat;
-  background-size: 130px 70px;
-  margin:30px 30px;
-}
-
-.logo-inverted span{
-  display: none;
-}
-
-.streetname{
-	color:#fff;
-}
-
-
-.logo {
-  display: block;
-  width:130px;
-  height:70px;
-  background-image: url("../img/logo-rok-light.png");
-  background-repeat: no-repeat;
-  background-size: 130px 70px;
-  margin:30px 30px;
-}
-
-.logo span{
-  display: none;
-}
-
-.gallery span{
-  display: none;
-}
-
-section {
-  width: 100%;
-  padding: 0 0%;
-  display: table;
-  margin: 0;
-  max-width: none;
-  background-image: url("../img/pattern-dark.png");
+body { 
+  padding: 0; 
+  margin: 0; 
+  background: #E4E6E6; 
+  font-family: 'Basis Grotesque', helvetica, sans-serif;
+  background-image: url("../img/pattern-light.png");
   background-size: 700px;
-  height: 100vh;
 }
 
-.intro {
-  height: 94vh;
+.center-div{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 220px;
+}
+
+.center{
+  text-align: center;
+}
+
+.curtain-road{
+  width:220px;
+  height:220px;
+}
+
+.upper-street{
+  width:220px;
+  height:220px;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  .curtain-road{
+    width:140px;
+    height:140px;
+  }
+
+  .upper-street{
+    width:140px;
+    height:140px;
+    margin-bottom:40px;
+  }
+
+  .center-div
+  {
+    height: 320px;
+  }
+
 }

@@ -23,6 +23,14 @@ body {
   margin:30px 30px;
 }
 
+.logo-branch{
+  level:100;
+  position:absolute;
+  display: block;
+  width:130px;
+  height:70px;
+}
+
 .logo span{
   display: none;
 }
@@ -307,11 +315,17 @@ font-size: 12px;
 }
 
 .gallery{
-  height: 375px;
-  margin-bottom: 20px;
-  background-color:#ccc;
+  // height: 375px;
+  // margin-bottom: 20px;
+  // background-color:#ccc;
+  // background-image: url("../img/gallery-mobile.jpg");
+  // background-size: 750px 375px;
+  height: 0;
+  margin-bottom: 40px;
+  background-color: #ccc;
   background-image: url("../img/gallery-mobile.jpg");
-  background-size: 750px 375px;
+  background-size: cover;
+  padding-top: 100%;
 }
 
 .menu li{
